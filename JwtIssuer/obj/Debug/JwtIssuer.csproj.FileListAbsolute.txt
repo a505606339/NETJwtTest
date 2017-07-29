@@ -1,0 +1,16 @@
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\JwtIssuer.dll.config
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\JwtIssuer.dll
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\JwtIssuer.pdb
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\JWT.dll
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\Newtonsoft.Json.dll
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\Microsoft.IdentityModel.Logging.xml
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\Newtonsoft.Json.xml
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+F:\Project\test\JWTtest\JwtIssuer\obj\Debug\JwtIssuer.dll
+F:\Project\test\JWTtest\JwtIssuer\obj\Debug\JwtIssuer.pdb
+F:\Project\test\JWTtest\JwtIssuer\bin\Debug\JwtIssuer.xml
+F:\Project\test\JWTtest\JwtIssuer\obj\Debug\JwtIssuer.csprojResolveAssemblyReference.cache

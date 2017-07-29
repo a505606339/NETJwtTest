@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JwtIssuer</name>
+    </assembly>
+    <members>
+        <member name="M:JwtIssuer.Algorithms.RSAUtils.TryGetKeyParameters(System.String,System.Boolean,System.Security.Cryptography.RSAParameters@)">
+            <summary>
+            从本地文件中读取用来签发 Token 的 RSA Key
+            </summary>
+            <param name="filePath">存放密钥的文件夹路径</param>
+            <param name="withPrivate">私钥或公钥标识</param>
+            <param name="keyParameters">算法参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtIssuer.Algorithms.RSAUtils.GenerateAndSaveKey(System.String)">
+            <summary>
+            生成并保存 RSA 公钥与私钥
+            </summary>
+            <param name="filePath">存放密钥的文件夹路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtIssuer.TokenIssuer.CreateToken(JwtIssuer.User,System.DateTime,System.String)">
+            <summary>
+            生成token
+            RS256方式加密,安全度十分高,需要验证服务器持有公钥
+            公钥由RSAUtils生成
+            </summary>
+            <param name="user">用户</param>
+            <param name="expire">过期时间</param>
+            <param name="audience">接收者(URL或服务器标识)</param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtIssuer.TokenIssuer.CreateTokenAsHSA(JwtIssuer.User,System.DateTime,System.String)">
+            <summary>
+            使用了JWT库而非微软官方库,用hsa加密,实现简单,但存在泄露数据风险,不可存密码一类数据
+            </summary>
+            <param name="user">用户实体</param>
+            <param name="expire">过期时间(UTC)</param>
+            <param name="audience">访问的网站或标识</param>
+            <returns></returns>
+        </member>
+        <member name="P:JwtIssuer.User.UserID">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:JwtIssuer.User.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:JwtIssuer.User.Role">
+            <summary>
+            用户角色
+            </summary>
+        </member>
+        <member name="P:JwtIssuer.User.expireDay">
+            <summary>
+            要设置的过期时间
+            </summary>
+        </member>
+    </members>
+</doc>
